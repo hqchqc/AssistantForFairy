@@ -17,7 +17,7 @@ class sendmsg extends Service {
     });
     const results = await Promise.all(promise);
     ctx.logger.info(
-      '--------------结束发送每日提醒->结果-----------------------------------------------: %j',
+      '--------------结束发送每日提醒->结果----------------------: %j',
       results
     );
     return results;
@@ -170,7 +170,7 @@ class sendmsg extends Service {
     return data;
   }
   // 获取天气
-  async getWeather(city = '深泽') {
+  async getWeather(city = '嘉兴') {
     const { app } = this;
     const url =
       'https://www.tianqiapi.com/api?unescape=1&version=v6&appid=' +
