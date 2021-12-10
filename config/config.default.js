@@ -19,18 +19,18 @@ module.exports = appInfo => {
   config.middleware = [];
   // 天气接口配置
   config.weather = {
-    appid: '*****************',
-    appsecret: '************',
+    appid: '81547356',
+    appsecret: 'KVJMCi03',
   };
   // 测试 微信公众号
   config.weChat = {
-    appld: 'wxf9a7417fc1598cdc',
-    secret: '*****',
+    appld: 'wx35aefdaa05a44e74',
+    secret: '4fdd04730f33c4fc5c452d4c53c5602f',
     // 用户的openid
     users: [
-      'ocSwk5qe173gL5ozcPQbTuoFfUKk',
+      'obdI_5xgG4pkmtGqUbBxLexjWdPo',
     ],
-    daily: '********************', // 普通模板
+    daily: '9ll3veJtOR8j9p4Pk9ZKUJNh_9dboSGHwbp9M6ihw5s', // 普通模板
     marry: '********************', // 结婚纪念日模板
     wageDay: '*****************', // 工资日模板
     birthday: '**************************', // 生日模板
