@@ -36,6 +36,7 @@ class sendmsg extends Service {
         'Content-Type': 'application/json',
       },
     });
+    console.log(result, '------------');
     return result;
   }
   // 获取token
@@ -179,6 +180,7 @@ class sendmsg extends Service {
       app.config.weather.appsecret +
       '&city=' +
       city;
+    console.log(url, '----------');
     const result = await this.ctx.curl(url, {
       method: 'get',
       dataType: 'json',
